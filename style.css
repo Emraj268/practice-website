@@ -20,6 +20,7 @@
     text-decoration: none;
     text-transform: capitalize;
     color: black;
+    font-size: 20px;
     font-weight:700;
     height: 52.19999694824219px;
 width: 243px;
@@ -47,24 +48,87 @@ justify-content: center;
 align-items: center;
 border-top: 1px solid gray;
 border-bottom: 1px solid gray;
-position: absolute;
-width: 1110px;
-height: 110px;
-left: 165px;
-top: 725px;
+padding: 20px;
+margin-bottom: 50px;
+margin-left: 165px;
+margin-right: 165px;
 }
 .logo{
     margin:0 20px;
 }
+.populer{
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
 .products{
- position: absolute;
-width: 1047px;
-height: 1662px;
-left: 174px;
-top: 931px;
 
 }
 .rate{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-left: 196px;
+    margin-right: 197px;
+
+}
+.box{
+    box-shadow: 0px 0px 12px gray;
+}
+.lekha{
+   padding: 5px;
+}
+.see {
+  
+    text-align: right;
+}
+.see a{
+    color: rgb(185, 8, 149);
+    text-decoration: none;
+    margin-right: 180px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.last{
+    display: flex;
+    margin-left: 190px;
+    margin-right: 165px;
+}
+.writting{
+    padding: 30px;
+}
+.writting h1{
+    text-transform: capitalize;
+}
+button{
+    background-color: rgb(208, 10, 106);
+    color: white;
+   font-size: 14px;
+   padding: 5px 18px;
+   text-transform: capitalize;
+}
+.footer-info{
+ background-color: black;
+ color: white;
+ align-items: center;
+ width: 100%;
+}
+.cp{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fb, .insta,.twitter{
+    margin:0px 12px;
+}
+@media screen and (max-width:900px) and (min-width:600px){
+    .rate{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .last{
+        flex-direction: column;
+    }
 }

@@ -76,6 +76,9 @@ margin-right: 165px;
 .box{
     box-shadow: 0px 0px 12px gray;
 }
+.fa-solid{
+    color: rgb(255, 225, 2);
+}
 .lekha{
    padding: 5px;
 }

@@ -1,0 +1,70 @@
+.body{
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+    margin: 0px auto;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.main-list a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: black;
+    padding: 20px;
+}
+.menu-list .single a{
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight:700;
+    height: 52.19999694824219px;
+width: 243px;
+left: 120px;
+top: 87px;
+border-radius: undefinedpx;
+}
+.camera{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 2rem;
+}
+.prebook{
+    text-decoration: none;
+    background-color:rosybrown;
+    padding:7px;
+    border-radius: 5px;
+    color: white;
+}
+.logos{
+    display: flex;
+
+justify-content: center;
+align-items: center;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+position: absolute;
+width: 1110px;
+height: 110px;
+left: 165px;
+top: 725px;
+}
+.logo{
+    margin:0 20px;
+}
+.products{
+ position: absolute;
+width: 1047px;
+height: 1662px;
+left: 174px;
+top: 931px;
+
+}
+.rate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
